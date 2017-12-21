@@ -3,12 +3,12 @@
 
 require 'pry'
 def key_for_min_value(name_hash)
-  # new_hash = {}
+  new_hash = {}
   name_hash.collect do |name, value|
     if value == {}
       return nil
     else
-  name.select{ |value| value > 0 }
+      new_hash = name.select{ |value| value > 0 }
 
     end
     # new_hash
