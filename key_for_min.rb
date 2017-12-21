@@ -7,7 +7,8 @@ def key_for_min_value(name_hash)
   name_hash.collect do |name, value|
     if name == []
       false
-    elsif new_hash = name
+    else
+      new_hash = name
   end
   new_hash
 end
