@@ -5,13 +5,11 @@ require 'pry'
 def key_for_min_value(name_hash)
   new_hash = {}
   name_hash.collect do |name, value|
-    if value == {}
-      return nil
-    else
-      name_hash.select{ |name, value| name = value < 2 }
-      "#{name}"
-    end
-
-    # name_hash
-  end
+    # if value < 2
+    
+        new_hash = name
+      end
+      # new_hash = name_hash.select { |name, value| value < 2 }
+  new_hash
+end
 end
