@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if value == {}
       return nil
     else
-      new_hash = name.select{ |value| value > 0 }
+      new_hash = name_hash.select{ |value| value > 0 }
 
     end
     # new_hash
