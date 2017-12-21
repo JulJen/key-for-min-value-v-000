@@ -6,5 +6,5 @@ def key_for_min_value(name_hash)
   name_hash.collect do |k, v|
     new_hash = name_hash.select { |name, value| name = (value < 2)}
   end
-  new_hash
+  new_hash[v]
 end
