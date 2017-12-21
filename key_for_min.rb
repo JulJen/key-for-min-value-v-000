@@ -10,6 +10,4 @@ def key_for_min_value(name_hash)
     else
       new_hash = name
   end
-  new_hash
-end
 end
