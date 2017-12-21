@@ -4,10 +4,8 @@
 def key_for_min_value(name_hash)
   new_hash = {}
   name_hash.collect do |name, value|
-    new_hash = name_hash.select { |name, value| value < 2 }
-
-  new_hash = name
+    # new_hash = name_hash.select { |name, value| value < 2 }
+    new_hash = name
 end
 new_hash
 end
-
