@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       false
     else
       new_hash = name
+    end
+    new_hash
   end
-  new_hash
-end
 end
