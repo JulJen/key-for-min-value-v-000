@@ -4,7 +4,8 @@
 def key_for_min_value(name_hash)
   name_hash.each do |k, v|
     if name_hash.include?(name = (value < 2)
-        puts "#{k}"
+      puts "#{k}"
+    end 
 
   # name_hash.select { |name, value| name = (value < 2)}
 end
