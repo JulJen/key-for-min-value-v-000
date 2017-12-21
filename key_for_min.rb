@@ -7,9 +7,9 @@ def key_for_min_value(name_hash)
   name_hash.collect do |name, value|
     if value == {}
       return nil
-    else 
+    else
   name.select{ |value| value > 0 }
-      
+
     end
     # new_hash
     name
