@@ -7,9 +7,10 @@ def key_for_min_value(name_hash)
   name_hash.collect do |name, value|
     # if value < 2
       new_hash = name
+binding.pry
       # new_hash = name_hash.select { |name, value| value < 2 }
     end
-binding.pry
+
   new_hash
 # end
 end
