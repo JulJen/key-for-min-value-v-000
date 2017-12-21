@@ -5,8 +5,8 @@ require 'pry'
 def key_for_min_value(name_hash)
   new_hash = {}
   name_hash.collect do |name, value|
-    if name == []
-      false
+    if name != []
+  
     elsif value < 2
       new_hash = name
     end
