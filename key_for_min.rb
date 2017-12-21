@@ -3,12 +3,12 @@
 
 require 'pry'
 def key_for_min_value(name_hash)
-  new_hash = {}
+  # new_hash = {}
   name_hash.collect do |name, value|
     if name == []
       nil
     elsif value > 0 && value < 2
-      new_hash = name.chomp
+      # name
     end
     # new_hash
   end
