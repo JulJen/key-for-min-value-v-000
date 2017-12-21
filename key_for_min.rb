@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   new_hash = {}
   name_hash.collect do |name, value|
     # if value < 2
-      new_hash = name
+      new_hash = name.select{ |name, value| value < 2 }
 binding.pry
       # new_hash = name_hash.select { |name, value| value < 2 }
     end
