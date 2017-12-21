@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if name == []
       false
     elsif value < 2
-      new_hash = name
+      new_hash = name[value]
     end
     new_hash
   end
